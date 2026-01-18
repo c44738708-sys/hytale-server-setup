@@ -437,7 +437,7 @@ fi
 # Check server files
 if [ ! -f "Server/HytaleServer.jar" ]; then
     echo "[!] HytaleServer.jar not found in Server/"
-    echo "[!] Run: ./hytale-downloader to download files"
+    echo "[!] Run: ./hytale-downloader to download files and then unzip the release zip. (DATE_OF_UPDATE-BUILD_ID.zip)"
     exit 1
 fi
 
